@@ -7,10 +7,15 @@
 .star-icon:after {
   content: "";
   display: inline-block;
-  width: 130px;
-  height: 7px;
+  width: 16%;
+  height: 5px;
   border-radius: 10px;
   vertical-align: middle;
+}
+
+.star-icon {
+  font-size: 35px;
+  margin: 20px 0;
 }
 
 h1, h2 {
@@ -18,11 +23,11 @@ h1, h2 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 26px;
 }
 
-.normal-text {
-  font-size: 30px;
+h4 {
+  font-size: 16px;
 }
 /* end UTILITY CLASS */
 
@@ -35,20 +40,13 @@ h2 {
   background-color: #1ABC9C;
 }
 
-.jumbotron-img img {
+.jumbotron-img {
   margin: 50px 0 20px;
-  height: 450px;
 }
 
 h1 {
-  font-size: 65px;
-  font-weight: bold;
+  font-size: 36px;
   margin-bottom: 25px;
-}
-
-.star-icon {
-  font-size: 60px;
-  margin: 20px 0;
 }
 
 header .star-icon:before,
@@ -57,7 +55,7 @@ header .star-icon:after {
 }
 
 header h3 {
-  font-size: 33px;
+  font-size: 20px;
   margin-bottom: 65px;
 }
 
@@ -84,8 +82,8 @@ header h3 {
 }
 
 .about h2 {
-  padding-top: 70px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+
 }
 
 .about .star-icon:before,
@@ -115,6 +113,7 @@ header h3 {
 .contact-form .star-icon:before,
 .contact-form .star-icon:after {
   background-color: black;
+  width: 7%;
 }
 
 .contact-form .form-input {
@@ -124,6 +123,7 @@ header h3 {
   border-bottom: 1px solid grey;
   padding-bottom: 25px;
   margin-bottom: 20px;
+  width: 300px;
 }
 
 .contact-form .form-input::placeholder {
@@ -144,10 +144,10 @@ header h3 {
   padding-bottom: 70px;
 }
 
-.contact-info ul li .fa {
+.contact-info .fa {
   border: 1px solid white;
   border-radius: 50%;
-  padding: 25px;
+  padding: 10px;
 }
 
 .contact-info .start-bootstrap {
