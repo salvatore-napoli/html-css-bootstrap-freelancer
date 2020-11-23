@@ -20,6 +20,10 @@ h1, h2 {
 h2 {
   font-size: 45px;
 }
+
+.normal-text {
+  font-size: 30px;
+}
 /* end UTILITY CLASS */
 
 .navbar-container {
@@ -72,4 +76,33 @@ header h3 {
 
 .portfolio-img img {
   border-radius: 20px;
+}
+
+.about {
+  margin-top: 40px;
+  background-color: #1ABC9C;
+}
+
+.about h2 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.about .star-icon:before,
+.about .star-icon:after {
+  background-color: white;
+}
+
+.about p {
+  padding-bottom: 40px;
+}
+
+.about .btn.btn-default {
+  background: transparent;
+  color: inherit;
+  border-color: inherit;
+}
+
+.about .download-button {
+  padding-bottom: 25px;
 }
