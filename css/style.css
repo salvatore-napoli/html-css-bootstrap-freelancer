@@ -134,3 +134,28 @@ header h3 {
   background-color: #1ABC9C;
   color: white;
 }
+
+.contact-info {
+  padding-top: 70px;
+  background-color: #3A546D;
+}
+
+.contact-info .footer-element {
+  padding-bottom: 70px;
+}
+
+.contact-info ul li .fa {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.contact-info .start-bootstrap {
+  color: #1ABC9C;
+}
+
+.copyright {
+  background-color: #2C3E50;
+  height: 250px;
+  line-height: 200px;
+}
