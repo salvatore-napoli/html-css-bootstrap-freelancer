@@ -106,3 +106,31 @@ header h3 {
 .about .download-button {
   padding-bottom: 25px;
 }
+
+.contact-form {
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.contact-form .star-icon:before,
+.contact-form .star-icon:after {
+  background-color: black;
+}
+
+.contact-form .form-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-input::placeholder {
+  color: black;
+}
+
+.contact-form .send-form {
+  background-color: #1ABC9C;
+  color: white;
+}
