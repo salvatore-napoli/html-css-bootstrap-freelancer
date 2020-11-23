@@ -1,6 +1,26 @@
+/* UTILITY CLASS */
 .text-white {
   color: white;
 }
+
+.star-icon:before,
+.star-icon:after {
+  content: "";
+  display: inline-block;
+  width: 130px;
+  height: 7px;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 45px;
+}
+/* end UTILITY CLASS */
 
 .navbar-container {
   background-color: #2C3E50;
@@ -27,18 +47,29 @@ h1 {
   margin: 20px 0;
 }
 
-.star-icon:before,
-.star-icon:after {
-  content: "";
-  display: inline-block;
-  width: 130px;
-  height: 7px;
-  border-radius: 10px;
-  vertical-align: middle;
+header .star-icon:before,
+header .star-icon:after {
   background-color: white;
 }
 
-header h2 {
+header h3 {
   font-size: 33px;
   margin-bottom: 65px;
+}
+
+.portfolio {
+  margin-top: 65px;
+}
+
+.portfolio .star-icon:before,
+.portfolio .star-icon:after {
+  background-color: black;
+}
+
+.portfolio-img {
+  margin-bottom: 50px;
+}
+
+.portfolio-img img {
+  border-radius: 20px;
 }
