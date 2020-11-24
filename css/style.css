@@ -3,6 +3,19 @@
   color: white;
 }
 
+.water-green-bg {
+  background-color: #1ABC9C;
+}
+
+.dark-blue-bg {
+  background-color: #2C3E50;
+}
+
+.star-icon {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
 .star-icon:before,
 .star-icon:after {
   content: "";
@@ -11,11 +24,6 @@
   height: 5px;
   border-radius: 10px;
   vertical-align: middle;
-}
-
-.star-icon {
-  font-size: 35px;
-  margin: 20px 0;
 }
 
 h1, h2 {
@@ -32,12 +40,7 @@ h4 {
 /* end UTILITY CLASS */
 
 .navbar-container {
-  background-color: #2C3E50;
   height: 80px;
-}
-
-.header-container {
-  background-color: #1ABC9C;
 }
 
 .jumbotron-img {
@@ -65,11 +68,11 @@ header h3 {
 
 .portfolio .star-icon:before,
 .portfolio .star-icon:after {
-  background-color: black;
+  background-color: #2C3E50;
 }
 
 .portfolio-img {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .portfolio-img img {
@@ -78,7 +81,6 @@ header h3 {
 
 .about {
   margin-top: 40px;
-  background-color: #1ABC9C;
 }
 
 .about h2 {
@@ -89,6 +91,7 @@ header h3 {
 .about .star-icon:before,
 .about .star-icon:after {
   background-color: white;
+  width: 8%;
 }
 
 .about p {
@@ -112,26 +115,25 @@ header h3 {
 
 .contact-form .star-icon:before,
 .contact-form .star-icon:after {
-  background-color: black;
+  background-color: #2C3E50;
   width: 7%;
 }
 
-.contact-form .form-input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid grey;
-  padding-bottom: 25px;
-  margin-bottom: 20px;
-  width: 300px;
+.contact-form .form-control {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  border-radius: 0;
+  padding-left: 0;
+  padding-top: 0;
 }
 
-.contact-form .form-input::placeholder {
+.contact-form .form-control::placeholder {
   color: black;
+  font-size: 18px;
 }
 
 .contact-form .send-form {
-  background-color: #1ABC9C;
   color: white;
 }
 
@@ -144,10 +146,24 @@ header h3 {
   padding-bottom: 70px;
 }
 
-.contact-info .fa {
+.contact-info .footer-icon-container {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.contact-info .footer-icon {
   border: 1px solid white;
   border-radius: 50%;
-  padding: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.contact-info .footer-icon.fa.fa-google-plus {
+  font-size: 18px;
+  line-height: 2.4;
 }
 
 .contact-info .start-bootstrap {
@@ -155,7 +171,6 @@ header h3 {
 }
 
 .copyright {
-  background-color: #2C3E50;
   height: 250px;
   line-height: 200px;
 }
