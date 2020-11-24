@@ -183,6 +183,10 @@ footer > .contact-info .footer-icon-container {
   padding-right: 10px;
 }
 
+footer > .contact-info .footer-icon-container a {
+  color: inherit;
+}
+
 footer > .contact-info .footer-icon {
   border: 1px solid white;
   border-radius: 50%;
