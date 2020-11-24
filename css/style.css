@@ -20,7 +20,7 @@
 .star-icon:after {
   content: "";
   display: inline-block;
-  height: 5px;
+  height: 4px;
   border-radius: 10px;
   vertical-align: middle;
 }
@@ -98,11 +98,11 @@ main > .portfolio .star-icon:after {
   width: 16%;
 }
 
-main > .portfolio-img {
+main > .portfolio .portfolio-img {
   margin-bottom: 30px;
 }
 
-main > .portfolio-img img {
+main > .portfolio .portfolio-img img {
   border-radius: 20px;
 }
 
@@ -182,16 +182,16 @@ footer > .contact-info .footer-icon-container {
 footer > .contact-info .footer-icon {
   border: 1px solid white;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding: 5px;
   font-size: 20px;
-  line-height: 2;
+  line-height: 1.4;
 }
 
 footer > .contact-info .footer-icon.fa.fa-google-plus {
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 1.7;
 }
 
 footer > .contact-info .start-bootstrap {
@@ -202,3 +202,33 @@ footer > .copyright {
   height: 250px;
   line-height: 200px;
 }
+
+/* Versione tablet */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 47px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  header h3 {
+    font-size: 21px;
+  }
+
+  header.star-icon:before,
+  header.star-icon:after,
+  main > .portfolio .star-icon:before,
+  main > .portfolio .star-icon:after {
+    margin: 0 15px;
+  }
+
+  main > .about .star-icon:before,
+  main > .about .star-icon:after,
+  main > .contact-form .star-icon:before,
+  main > .contact-form .star-icon:after {
+    width: 10%;
+  }
+}
+/* end Versione tablet */
